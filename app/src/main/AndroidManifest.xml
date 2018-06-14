@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.allinoneteacher">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCEIS"
+            android:value="ocr" />
+
+        <activity
+            android:name=".NUMBERS"
+            android:label="NUMBERS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".correct"
+            android:label="CORRECT" />
+        <activity
+            android:name=".wrong"
+            android:label="WRONG" />
+        <activity
+            android:name=".Extra"
+            android:label="TWO"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Three"
+            android:label="THREE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".four"
+            android:label="FOUR"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".five"
+            android:label="FIVE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".six"
+            android:label="SIX"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".seven"
+            android:label="SEVEN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".eight"
+            android:label="EIGHT"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".nine"
+            android:label="NINE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ten"
+            android:label="TEN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".eleven"
+            android:label="ELEVEN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".twelve"
+            android:label="TWELVE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".thirteen"
+            android:label="thirteen"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".a"
+            android:label="A"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".b"
+            android:label="B"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".c"
+            android:label="C"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".d"
+            android:label="D"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".e"
+            android:label="E"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".f"
+            android:label="F"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".g"
+            android:label="G"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".h"
+            android:label="H"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".i"
+            android:label="I"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".j"
+            android:label="J"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".k"
+            android:label="K"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".dog"
+            android:label="DOG"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tiger"
+            android:label="TIGER"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".lion"
+            android:label="LION"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cat"
+            android:label="CAT"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".fish"
+            android:label="FISH"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".monkey"
+            android:label="MONKEY"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".rectangle"
+            android:label="RECTANGLE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".triangle"
+            android:label="TRIANGLE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".square"
+            android:label="SQUARE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".star"
+            android:label="STAR"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sphere"
+            android:label="SPHERE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".wt"
+            android:label="Wait"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".l"
+            android:label="L"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".rect"
+            android:label="Examples of rectangle"
+            android:parentActivityName=".rectangle" />
+        <activity
+            android:name=".tri"
+            android:label="Examples of triangle"
+            android:parentActivityName=".triangle" />
+        <activity
+            android:name=".sq"
+            android:label="Examples of square"
+            android:parentActivityName=".square" />
+        <activity
+            android:name=".br"
+            android:label="Book Reader"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".m"
+            android:label="M"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".n"
+            android:label="N"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".o"
+            android:label="O"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".p"
+            android:label="P"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".q"
+            android:label="Q"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".r11"
+            android:label="R"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".s"
+            android:label="S"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".t"
+            android:label="T"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".u"
+            android:label="U"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".v"
+            android:label="V"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".w"
+            android:label="W"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".x"
+            android:label="X"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".y"
+            android:label="Y"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".z"
+            android:label="Z"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".aex"
+            android:label="A FOR"
+            android:parentActivityName=".a" />
+        <activity
+            android:name=".bex"
+            android:label="B FOR"
+            android:parentActivityName=".b" />
+        <activity
+            android:name=".cex"
+            android:label="C FOR"
+            android:parentActivityName=".c" />
+        <activity
+            android:name=".dex"
+            android:label="D FOR"
+            android:parentActivityName=".d" />
+        <activity android:name=".about"
+            android:label="ABOUT US"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>
